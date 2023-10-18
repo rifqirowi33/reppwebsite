@@ -1,0 +1,11 @@
+hi there, im fix some crash layout for any device
+
+15 JUL 2023
+> chatbox adjustment
+
+
+14 JUL 2023
+ > fix some layout for any device.
+ > fix UI for landscape mode on any device.
+ > fix some crash rendering.
+ > fix clock 24 format, 24 change to 00:00.

@@ -1,0 +1,41 @@
+.specification {
+    margin-top: -20px;
+    width: 100%;
+    height: 100%;
+}
+
+.specs-compooper {
+    font-size: 12px;
+    padding: 15px;
+}
+
+.specs-cpu {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.specs-memory {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.vga1-specs {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.vga2-specs {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.specs-ssd {
+    padding: 5px;
+    font-size: 14px;
+}
+
+.specs-os {
+    padding: 5px;
+    font-size: 14px;
+}
+

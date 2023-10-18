@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'pixel';
+    src: url(/Asset/font/pixelmix.ttf);
+}
+
+@font-face {
+    font-family: 'retro';
+    src: url(/Asset/font/retro_computer_personal_use.ttf);
+}
+
+@font-face {
+    font-family: 'NES';
+    src: url(/Asset/font/Pixel_NES.woff2) format('woff2');
+}
+
+body {
+    color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+}
+
+.title {
+    image-rendering: pixelated;
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 97.1%;
+    border-bottom: 5px solid rgb(240, 240, 240);
+}
+
+h1 {
+    font-family: NES;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 10px;
+    font-family: pixel;
+    font-size: 20px;
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 500px;
+    width: 97%;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 140px;
+    overflow-x: auto;
+    padding-right: 20px;
+}
+
+#container .scrollable-content {
+    display: flex;
+}
+
+.loading-animation {
+  transform: scale(0.4);
+  margin-top: -300px;
+  margin-left: 70px;
+}
+
+.loading-animation img {
+  display: block;
+  margin: 0 auto;
+}
+
+.content {
+    flex: 0 0 400px;
+    height: 400px;
+    margin: 0 10px;
+    padding: 10px;
+    border: 5px solid rgb(240, 240, 240);
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 240, 240);
+    overflow: hidden;
+}
+
+h3 {
+    margin: 0;
+    font-size: 25px;
+    font-family: retro;
+    text-align: center;
+}
+
+p1 {
+    margin: 0;
+    font-family: retro;
+    word-wrap: break-word;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    border-top: 5px solid rgb(240, 240, 240);
+    text-align: center;
+    font-family: pixel;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 97.1%;
+}
+
+/* Media Query iPhone 7 Plus */
+@media only screen and (max-width: 414px) and (orientation: portrait) {
+    .title {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 16px;
+    }
+  
+    #container {
+      margin-top: 140px;
+      margin-left: 1px;
+      height: 600px;
+    }
+    
+    .loading-animation {
+      transform: scale(0.2);
+      margin-left: -400px;
+    }
+    
+    .loading-animation img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .content {
+      flex: 0 0 250px;
+      height: 400px;
+      margin: 0 5px;
+      padding: 5px;
+    }
+  
+    h3 {
+      font-size: 14px;
+    }
+  
+    p1 {
+      font-size: 10px;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  } 
+
+/* Media query Honor Play 2018  */
+@media only screen and (max-width: 360px) and (orientation: portrait) {
+    .title {
+      padding: 20px;
+      margin-left: -15px;
+    }
+  
+    h1 {
+      font-size: 30px;
+    }
+  
+    h2 {
+      font-size: 15px;
+    }
+  
+    #container {
+      margin-top: 175px;
+      margin-left: 1px;
+      height: 1000px;
+    }
+    
+    .loading-animation {
+      transform: scale(0.2);
+      margin-left: -420px;
+      margin-top: -600px;
+    }
+    
+    .loading-animation img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    .content {
+      flex: 0 0 250px;
+      height: 400px;
+      margin: 0 5px;
+      padding: 5px;
+    }
+  
+    h3 {
+      font-size: 14px;
+    }
+  
+    p1 {
+      font-size: 10px;
+    }
+  
+    footer {
+      padding: 20px;
+      margin-left: -15px;
+    }
+  }

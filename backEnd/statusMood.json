@@ -1,0 +1,38 @@
+{
+    "A": {
+      "mood": "A",
+      "statusText": "Iam Sleepy"
+    },
+    "B": {
+      "mood": "B",
+      "statusText": "Hello World!"
+    },
+    "C": {
+      "mood": "C",
+      "statusText": "Focus"
+    },
+    "D": {
+      "mood": "D",
+      "statusText": "Relax Bro"
+    },
+    "E": {
+      "mood": "E",
+      "statusText": "Sleep"
+    },
+    "F": {
+      "mood": "F",
+      "statusText": "Woaaaaarrghhh"
+    },
+    "G": {
+      "mood": "G",
+      "statusText": "So Tired"
+    },
+    "H": {
+      "mood": "H",
+      "statusText": "Huffftttt..."
+    },
+    "I": {
+      "mood": "I",
+      "statusText": "Wohoooo... Healing!"
+    }
+  }  

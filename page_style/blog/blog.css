@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "pixel";
+  src: url(/Asset/font/pixelmix.ttf);
+}
+
+@font-face {
+  font-family: "retro";
+  src: url(/Asset/font/retro_computer_personal_use.ttf);
+}
+
+@font-face {
+  font-family: "pcode";
+  src: url(/Asset/font/PixelCode.woff);
+}
+
+@font-face {
+  font-family: "nes";
+  src: url(/Asset/font/Pixel_NES.woff2);
+}
+
+@font-face {
+  font-family: "kode";
+  src: url(/Asset/font/Kode-Bold.ttf);
+}
+
+/* styling in down here */
+body {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+h1 {
+  font-family: "nes";
+  font-size: 25px;
+}
+
+p {
+  font-family: retro;
+  font-size: 14px;
+}
+
+.content {
+  border: 2px solid rgb(255, 255, 255);
+  height: 200vh;
+}
+
+h2 {
+  margin-left: 20px;
+}
+
+p1 {
+  margin-left: 20px;
+}

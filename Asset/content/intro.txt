@@ -1,0 +1,9 @@
+Hello World! My name is Repp.
+
+I've created this site to share my ideas, works, and sometimes i wrote diaries... hehehe, for those who's curious you can read DIARY section.
+
+I developed this website using basic HTML, CSS, and JavaScript programming languages.
+
+Although it may look simple, more project and interesting features will come.
+
+And of course all changes will happen whenever i make updates.

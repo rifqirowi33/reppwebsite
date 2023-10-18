@@ -1,0 +1,4 @@
+18 AUG 2023
+
+i trying migrate text editor for my project, from vscode to nvim, 
+and i configure it for nvim, it's very hard, but nvim performance is very very very fast for potato pc hehehe.

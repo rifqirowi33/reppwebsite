@@ -1,0 +1,7 @@
+font yang dipakai
+
+- 8bit operator plus SC Bold (header)
+- pixel nes (title)
+- 8bit operator plus sc regular (watermark)
+- 8bit operator plus regular (paragraph)
+- 8bit operator plus bold (title list)

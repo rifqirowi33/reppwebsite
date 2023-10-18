@@ -1,0 +1,680 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "NES";
+  src: url(/Asset/font/Pixel_NES.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "bitOPSCReg";
+  src: url(/Asset/font/8bitOperatorPlusSC-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "bitOPSCBold";
+  src: url(/Asset/font/8bitOperatorPlusSC-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "bitOPReg";
+  src: url(/Asset/font/8bitOperatorPlus8-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "bitOPBold";
+  src: url(/Asset/font/8bitOperatorPlus8-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-family: "marioDS";
+  src: url(/Asset/font/Mario-Kart-DS.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "retro";
+  src: url(/Asset/font/retro_computer_personal_use.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "pixel";
+  src: url(/Asset/font/pixelmix.ttf);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(/Asset/background/background-1080p.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: center;
+  height: 140vh;
+  color: rgb(240, 240, 240);
+  image-rendering: pixelated;
+}
+
+.container {
+  max-width: 1200px;
+  height: 800px;
+  padding: 20px;
+  display: flex;
+}
+
+.leftpage,
+.midpage,
+.rightpage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+
+.leftpage {
+  width: 300px;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.logs {
+  background-image: url(/Asset/layout/progress.blacklayout.png);
+  background-repeat: no-repeat;
+  padding: 10px;
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.logs h1 {
+  margin-top: -5px;
+  margin-left: -69px;
+  font-family: "bitOPSCBold";
+  font-size: 27px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.logs .scrollable-content {
+  margin-top: -20px;
+  height: 275px;
+  width: 233px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: rgb(240, 240, 240);
+}
+
+.logs .scrollable-content::-webkit-scrollbar {
+  width: 3px;
+}
+
+.logs .scrollable-content::-webkit-scrollbar-track {
+  background-color: rgb(0, 0, 0);
+}
+
+.logs .scrollable-content::-webkit-scrollbar-thumb {
+  background-color: rgb(240, 240, 240);
+}
+
+.logs .scrollable-content::-webkit-scrollbar-thumb {
+  position: relative;
+}
+
+.logs p1 {
+  margin-left: -1px;
+  font-family: bitOPBold;
+  text-align: left;
+}
+
+.logs li {
+  margin-bottom: -10px;
+  margin-left: -5px;
+  list-style-type: none;
+  padding-left: 35px;
+  background-image: url(/Asset/icon/favicon.ico);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 50px 50px;
+  font-size: 14px;
+  font-family: bitOPReg;
+  letter-spacing: -1px;
+  text-align: left;
+}
+
+.about {
+  margin-left: -20px;
+  margin-bottom: 105px;
+  display: flex;
+  flex-direction: row;
+  background-image: url(/Asset/layout/about.blacklayout.png);
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 200px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.about a {
+  text-decoration-color: rgb(240, 240, 240);
+  text-decoration-line: none;
+  text-decoration-skip-ink: none;
+}
+
+.diary {
+  margin-top: -40px;
+  margin-left: -45px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transform: scale(1.5);
+  transform-origin: 50% 50%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.diary .DIARY {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  font-family: "bitOPSCReg";
+  font-size: 14px;
+  align-items: center;
+  color: rgb(240, 240, 240);
+}
+
+.me {
+  margin-top: -49px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+  align-content: center;
+  transform: scale(0.62);
+  transform-origin: 50% 50%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.me .ME {
+  display: flex;
+  flex-direction: row;
+  font-family: "bitOPSCReg";
+  font-size: 30px;
+  color: rgb(240, 240, 240);
+  align-items: center;
+  justify-content: center;
+}
+
+.doc {
+  margin-top: -40px;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transform: scale(1.5);
+  transform-origin: 50% 50%;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.doc .DOC {
+  display: flex;
+  flex-direction: column;
+  font-family: "bitOPSCReg";
+  font-size: 14px;
+  color: rgb(240, 240, 240);
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.diary,
+.me,
+.doc {
+  transition: transform 0.3s ease;
+}
+
+.diary:hover {
+  transform: scale(1.75);
+}
+
+.me:hover {
+  transform: scale(0.75);
+}
+
+.doc:hover {
+  transform: scale(1.75);
+}
+
+.midpage {
+  margin: 0 auto;
+  padding: 0 auto;
+  width: 800px;
+  height: 800px;
+  justify-items: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.content {
+  margin-bottom: 210px;
+  margin-left: -120px;
+  background-image: url(/Asset/layout/content.blacklayout.png);
+  background-repeat: no-repeat;
+  place-content: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  transform: scale(0.83);
+  width: 800px;
+  height: 800px;
+}
+
+.content h1 {
+  margin-top: 25px;
+  font-family: "NES";
+  font-size: 43px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.content p {
+  font-family: pixel;
+  text-align: center;
+}
+
+.midpage .content span {
+  text-align: justify;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.frame {
+  width: 92%;
+  padding: 10px;
+  outline: none;
+}
+
+#contentPlaceholder {
+  font-family: bitOPReg;
+  font-size: 20px;
+  margin-left: 40px;
+  white-space: pre-line;
+  margin-top: -15px;
+  margin-bottom: 20px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  text-align: justify;
+}
+
+.rightpage {
+  display: flex;
+  width: 300px;
+  height: 800px;
+  margin-left: -62px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.waktu {
+  background-image: url(/Asset/layout/clock.black.png);
+  background-repeat: no-repeat;
+  transform: scale(1);
+  width: 300px;
+  height: 170px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.time {
+  color: rgb(0, 255, 0);
+  font-family: bitOPSCReg;
+  font-size: 15px;
+  margin-left: -45px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.clock {
+  margin-top: 2px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: pixel;
+  letter-spacing: 2px;
+}
+
+.counter {
+  margin-left: -45px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.result {
+  transform: scale(0.74);
+  margin-left: 10px;
+  margin-top: 26.5px;
+  font-size: 12px;
+  font-family: pixel;
+  justify-content: center;
+  justify-items: center;
+  position: relative;
+}
+
+.visitor {
+  color: rgb(0, 255, 0);
+  font-family: bitOPSCReg;
+  font-size: 15px;
+  margin-top: -48px;
+  margin-left: 75px;
+}
+
+.status {
+  margin-top: 5px;
+  margin-left: 16px;
+  background-image: url(/Asset/layout/status.blacklayout.png);
+  background-repeat: no-repeat;
+  transform: scale(1.06);
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-items: center;
+}
+
+.status h1 {
+  margin-top: 5px;
+  margin-left: -62px;
+  font-family: "bitOPSCBold";
+  font-size: 27px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#statusImage {
+  position: fixed;
+  top: 45%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+#statusText {
+  margin-top: 120px;
+  margin-left: -60px;
+  font-family: bitOPBold;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.chatbox {
+  image-rendering: optimizeSpeed;
+  margin-left: 21px;
+  margin-bottom: 10px;
+  background-image: url(/Asset/layout/chatbox.blacklayout.png);
+  background-repeat: no-repeat;
+  transform: scale(1.08);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  height: 600px;
+  width: 300px;
+}
+
+.chatbox h1 {
+  margin: 0;
+  margin-right: 57px;
+  padding: 0;
+  padding-top: 2px;
+  font-family: "bitOPSCBold";
+  font-size: 27px;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.chatbox p {
+  padding: 0 auto;
+  margin: 0 auto;
+  margin-right: 62px;
+  font-family: "pixel";
+  font-size: 10.5px;
+  text-align: center;
+  line-height: 1.5;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.chatbox iframe {
+  padding: 3px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+footer {
+  margin-bottom: 20px;
+  position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.copyright {
+  display: flex;
+  font-family: "pixel";
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  justify-items: center;
+  letter-spacing: 10px;
+  line-height: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+/* media query for potrait view */
+@media (orientation: portrait) {
+  .container {
+    justify-content: space-between;
+  }
+
+  .leftpage,
+  .midpage,
+  .rightpage {
+    flex: 1;
+    margin: 0 10px;
+  }
+}
+
+@media (min-width: 50px) and (max-width: 479px) {
+  body {
+    height: 280vh;
+  }
+
+  .container {
+    margin-top: 5%;
+    flex-direction: column;
+  }
+
+  .leftpage,
+  .midpage,
+  .rightpage {
+    margin: 10px 0;
+  }
+
+  .logs,
+  .about,
+  .content,
+  .rightpage {
+    transform: scale(1.5);
+  }
+
+  .logs {
+    margin-top: 20px;
+    margin-left: 170px;
+    background-image: url(/Asset/layout/about.blacklayout.png);
+    height: 100px;
+  }
+
+  .logs .scrollable-content {
+    margin-top: -20px;
+    height: 85px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: rgb(240, 240, 240);
+  }
+
+  .logs h1 {
+    margin-top: -8px;
+    font-size: 16px;
+  }
+
+  .logs p1 {
+    font-size: 14px;
+  }
+
+  .logs li {
+    font-size: 12px;
+  }
+
+  .about {
+    margin-top: 80px;
+    margin-left: 135px;
+  }
+
+  .DIARY,
+  .diary {
+    margin-bottom: 15px;
+  }
+
+  .me,
+  .ME {
+    margin-bottom: 22px;
+  }
+
+  .doc,
+  .DOC {
+    margin-bottom: 15px;
+  }
+
+  .content {
+    margin-top: -314px;
+    margin-left: -252px;
+    background-image: url(/Asset/layout/content.blacklayout_flip.png);
+    height: 795px;
+    transform: scale(0.7);
+  }
+
+  .content h1 {
+    margin-left: -250px;
+    font-size: 39px;
+    text-align: center;
+  }
+
+  .content p {
+    text-align: center;
+    margin-left: -250px;
+  }
+
+  .frame {
+    width: 60%;
+    padding: 10px;
+    outline: none;
+  }
+
+  #contentPlaceholder {
+    font-size: 20px;
+  }
+
+  .rightpage {
+    margin-left: 70px;
+    margin-top: -122px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 1100px;
+    transform: translateX(5%);
+    letter-spacing: 2px;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+}

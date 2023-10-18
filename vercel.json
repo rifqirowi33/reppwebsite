@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/diary", "destination": "/diary.html" },
+    { "source": "/me", "destination": "/me.html" },
+    { "source": "/docs", "destination": "/docs.html" },
+    { "source": "/mypc", "destination": "/404.html" },
+    { "source": "/project", "destination": "/myproject.html" },
+    { "source": "/mygames", "destination": "/mygames.html" },
+    { "source": "/myphotos", "destination": "/404.html" },
+    { "source": "/blog", "destination": "/blog.html" },
+    { "source": "/(.*)", "destination": "/404.html" }
+  ]
+}

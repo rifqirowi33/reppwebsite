@@ -1,0 +1,5 @@
+19 AUG 2023
+
+I spent a whole day configuring and learning to customize the text editor that is in the terminal 
+cli, this text editor can be opened almost on all platforms, this is very cool... I want to finish
+this quickly, and start using this text editor to work on my next project.

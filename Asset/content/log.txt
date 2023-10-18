@@ -1,0 +1,104 @@
+>21 AUG 2023
+adjustment layout on ME Page
+
+>20 AUG 2023
+BLOG! on the working proggress
+
+>18 AUG 2023
+Migrate project text editor from code to nvim
+
+>15 AUG 2023
+Native CSS CUSTOMISATION
+
+
+>13 AUG 2023
+add ERROR 404 Page
+add BLOG
+add PROJECT ROOM
+
+>12 AUG 2023
+fix many, many, many bugs
+
+>11 AUG 2023
+docsv1 Dekstop Mode!!!
+add feature
+
+>10 AUG 2023
+build docs layout
+
+>06 AUG 2023
+fix Layout Homepage for potrait view
+change intro on Homepage
+fix bugs function text on aboutME
+layouting docs! (work on proggress)
+
+>03 AUG 2023
+Optimisation ABOUT ME Layout for Mobile Web
+
+>02 AUG 2023
+add ABOUT ME!!
+
+>01 AUG 2023
+Layout ABOUT ME site concept
+
+>22 JUL 2023
+add Loading animation
+diary layout optimisation
+
+>21 JUL 2023
+fix bug on write diary data
+
+>20 JUL 2023
+add notes on diary
+
+>19 JUL 2023
+add Diary!!!
+build backEnd server
+
+>18 JUL 2023
+layout concept for diary
+build diary site
+
+>17 JUL 2023
+update counter visitorrr!!
+add hover on menu icon
+CSS cutomisation
+add AJAX request
+add icon sun and moon
+Mood is ON!
+
+>15 JUL 2023
+chatbox adjustment
+add trackbar
+
+>14 JUL 2023
+fix some layout for any device.
+fix UI for landscape mode on any device.
+fix some crash rendering.
+fix clock 24 format, 24 change to 00:00.
+
+>13 JUL 2023
+optimized rendering quality
+add introooo!!!
+javascript clock
+
+>12 JUL 2023
+deployment and testing
+
+>10 JUL 2023
+custom layout for potrait
+
+>9 JUL 2023
+add html blank document
+
+>7 JUL 2023
+add button icon
+
+>5 JUL 2023
+adjust layout by CSS
+add feature
+
+>4 JUL 2023
+layout concept
+build asset
+Hello World!
