@@ -1,4 +1,5 @@
 const http = require("http");
+const port = process.env.PORT || 8585;
 const url = require("url");
 const fs = require("fs");
 const path = require("path");
@@ -31,7 +32,7 @@ const server = http.createServer((req, res) => {
   });
 });
 
-server.listen(8585, "localhost", () => {
+server.listen(port, () => {
   console.log("Listening on port 8585");
 });
 
