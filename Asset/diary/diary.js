@@ -1,5 +1,6 @@
 var notepadFiles = [
 
+  "1 JAN 2024.txt",
   "20 AUG 2023.txt",
   "19 AUG 2023.txt",
   "18 AUG 2023.txt",
